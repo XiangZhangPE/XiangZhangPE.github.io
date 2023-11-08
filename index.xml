@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YUJIE HE</title>
+    <link>https://yujie-he.github.io/</link>
+    <description>Recent content on YUJIE HE</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Last updated on Nov., 2021 · Yujie HE &amp;copy; 2019 - 2021</copyright>
+    <lastBuildDate>Sat, 06 Nov 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://yujie-he.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>https://yujie-he.github.io/study/2019-deep-learning/final_project/</link>
+      <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/study/2019-deep-learning/final_project/</guid>
+      <description>
+
+&lt;h3 id=&#34;final-project&#34;&gt;Final Project&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;💥Online Viewer: &lt;a href=&#34;https://nbviewer.jupyter.org/github/hibetterheyj/tju_deep_learning/blob/master/final_project/HYJ_DL_0108.ipynb&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;jupyter notebook for final project&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Title&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Enhanced 3D Zonal Segmentation of the Prostate on MRI via Enhanced Weight-Standardization and GroupNorm&lt;/p&gt;
+
+&lt;p&gt;基于的Weight-Standardization和GroupNorm的三维前列腺MRI区块分割&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In this final project, I utilized Weight Standardization (WS) as well as GroupNorm to accelerate neural networks training and improve overall segmentation results for 3D Zonal Segmentation of the Prostate on MRI images. WS is targeted at the micro-batch training setting where each GPU typically has only 1-2 images for training. The quantitative experiments have shown that UWG-Net can outperform the performances of 3D U-Net (baseline) with BN trained with small batch sizes with only two more lines of code. The effectiveness of WS is verified on the open-source Prostate Dataset, including 22 training cases and 10 testing cases.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://yujie-he.github.io/img/study/tju_dl_project_result.png&#34; alt=&#34;Quantitative experiments on Prostate Dataset&#34; /&gt;
+&lt;small&gt;Quantitative experiments on Prostate Dataset. &lt;font color=&#34;red&#34;&gt;Red&lt;/font&gt;, &lt;font color=&#34;green&#34;&gt;green&lt;/font&gt;, and &lt;font color=&#34;blue&#34;&gt;blue&lt;/font&gt; fonts denote the first, second, and third best performance among all models. &lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-modal pedestrian behavior analysis for Qolo robot</title>
+      <link>https://yujie-he.github.io/project/2021-qolo-pedestrian-analysis/</link>
+      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/project/2021-qolo-pedestrian-analysis/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Research Assistant&lt;/strong&gt; at &lt;a href=&#34;https://lasa.epfl.ch/&#34; target=&#34;_blank&#34;&gt;Learning Algorithms and  Systems Laboratory (LASA)&lt;/a&gt;, EPFL since &lt;em&gt;Oct. 2021&lt;/em&gt;
+Supervisor: &lt;a href=&#34;https://people.epfl.ch/diego.paez&#34; target=&#34;_blank&#34;&gt;Dr. Diego Felipe Paez Granados&lt;/a&gt;, and &lt;a href=&#34;https://people.epfl.ch/aude.billard?lang=en&#34; target=&#34;_blank&#34;&gt;Prof. Aude Billard&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
+HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
+
+&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;&lt;center&gt;
+  &lt;img src=&#34;./qolo_tracking.gif&#34; alt=&#34;Qolo trajectory and tracked pedestrian in world frame&#34;  width=&#34;90%&#34;  /&gt;
+  &lt;small&gt;
+  &lt;b&gt;
+     Qolo trajectory and tracked pedestrian in world frame
+  &lt;/b&gt;
+  &lt;/small&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;In this work, we will create a dataset of mobile robot navigation around pedestrians from experimental data of a personal mobility device navigating autonomously around pedestrians in the streets of center Lausanne.&lt;/p&gt;
+
+&lt;p&gt;The focus will be to assess people navigation behavior around the robot by extracting trajectories and motions. I aim to build a detecting, tracking, and motion profile extraction pipeline on lidar and camera data.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+  &lt;img src=&#34;./featured.png&#34; alt=&#34;dataset_qolo_overview&#34;  width=&#34;60%&#34;  /&gt;
+  &lt;small&gt;
+  &lt;b&gt;
+    Overview of detected pedestrian from recorded rosbag and qolo robot
+  &lt;/b&gt;
+  &lt;/small&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;preliminary-results&#34;&gt;Preliminary results&lt;/h2&gt;
+
+&lt;p&gt;&lt;center&gt;
+  &lt;img src=&#34;./crowd_density.png&#34; alt=&#34;dataset_qolo_overview&#34;  width=&#34;60%&#34;  /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./min_dist.png&#34; alt=&#34;dataset_qolo_overview&#34;  width=&#34;60%&#34;  /&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;dataset-and-toolkit-overview&#34;&gt;Dataset and toolkit overview&lt;/h2&gt;
+
+&lt;p&gt;🚧 To be updated!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ReCF: Exploiting Response Reasoning for Correlation Filters in Real-Time UAV Tracking</title>
+      <link>https://yujie-he.github.io/publication/2021_recf_tits/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/publication/2021_recf_tits/</guid>
+      <description>&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;featured.jpg&#34; alt=&#34;ReCF_workflow&#34; /&gt;
+&lt;small&gt;Main difference between the proposed ReCF and SRDCF.&lt;/small&gt;
+&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Development of vision based algorithms to a window/balcony drone delivery</title>
+      <link>https://yujie-he.github.io/project/2021-lis-drone-delivery/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/project/2021-lis-drone-delivery/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Semester Research Student&lt;/strong&gt; at &lt;a href=&#34;https://lis.epfl.ch/&#34; target=&#34;_blank&#34;&gt;Laboratory of Intelligent Systems (LIS)&lt;/a&gt;, EPFL since &lt;em&gt;Feb. 2021&lt;/em&gt;
+Supervisor: &lt;a href=&#34;https://people.epfl.ch/valentin.wueest/?lang=en&#34; target=&#34;_blank&#34;&gt;Valentin Wüest&lt;/a&gt; (PhD student), &lt;a href=&#34;https://people.epfl.ch/przemyslaw.kornatowski/?lang=en&#34; target=&#34;_blank&#34;&gt;Dr. Przemyslaw Mariusz Kornatowski&lt;/a&gt;, and &lt;a href=&#34;https://people.epfl.ch/dario.floreano&#34; target=&#34;_blank&#34;&gt;Prof. Dario Floreano&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
+HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
+
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;At the Laboratory of Intelligent Systems (LIS), passionate researchers are developing a human-friendly drone delivery system for last-cm delivery - &lt;a href=&#34;http://dronistics.epfl.ch&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Dronistics&lt;/strong&gt;&lt;/a&gt;. The system is composed of a safe drone called &lt;strong&gt;PackDrone&lt;/strong&gt; and software to control and monitor drones in real-time.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+  &lt;!-- &lt;img src=&#34;gearquad.jpg&#34; alt=&#34;gearquad_parcel&#34; style=&#34;zoom:12%;&#34; /&gt; --&gt;
+  &lt;img src=&#34;https://dronistics.epfl.ch/img/PackDrone_deployed.jpg&#34; alt=&#34;PackDrone_deployed&#34;  width=&#34;200&#34;  /&gt;
+  &lt;small&gt;
+  &lt;b&gt;
+    &lt;!-- Parcel placed above the cage allows the drone to transport parcels of various sizes without negative impact on lift --&gt;
+     PackDrone can eliminate the damage from propellers or rotor blades with a foldable protective cage
+  &lt;/b&gt;
+  [Source: &lt;a href=&#34;http://dronistics.epfl.ch&#34; target=&#34;_blank&#34;&gt;Dronistics&lt;/a&gt;]
+  &lt;/small&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What is the goal of this semester project?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Our goal is to &lt;strong&gt;deliver to a balcony/window&lt;/strong&gt; which is &lt;strong&gt;tagged with a special symbol/pattern&lt;/strong&gt;. Moreover, the drone should be equipped with a system of &lt;strong&gt;collision avoidance&lt;/strong&gt; to prevent hitting a building.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Why motivates us to work on this project?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One vivid example is that in this special period of Covid-19, people are required to keep social distance while delivery work keeps operating. In contrast to large aircraft, window/balcony delivery with lightweight drone is a reasonable and effective solution to send valuable parcels such as medical supplies rapidly and safely.&lt;/p&gt;
+
+&lt;h2 id=&#34;system-architecture&#34;&gt;System architecture&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Illustration&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Hardware&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;./featured.jpg&#34; alt=&#34;experimental_drone&#34; width=&#34;600&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Software&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;./system_arch.jpg&#34; alt=&#34;system_arch&#34; width=&#34;600&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;center&gt;
+  &lt;small&gt;
+  &lt;b&gt;System architecture of the proposed drone delivery system&lt;/b&gt;
+  &lt;/small&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Visual fiducial marker evaluation
+&lt;img src=&#34;./tag_evaluation.jpg&#34; alt=&#34;tag_evaluation&#34; width=&#34;600&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Onboard test&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;./tag_drone_real.png&#34; alt=&#34;tag_drone_real&#34; width=&#34;600&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;final-presentation&#34;&gt;Final presentation&lt;/h2&gt;
+
+&lt;!-- &lt;iframe src=&#34;https://drive.google.com/file/d/1LCtTQ2NFRRjhwrPHcfao5ApY6hocKZaQ/preview&#34; width=&#34;700&#34; height=&#34;400&#34;&gt;&lt;/iframe&gt; --&gt;
+
+&lt;iframe src=&#34;https://drive.google.com/file/d/1VmY0fp5KuiljASgDYkci4Nhcj0Mt3HlK/preview&#34; width=&#34;700&#34; height=&#34;400&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Autonomous Navigation and Landing for Crazyflie</title>
+      <link>https://yujie-he.github.io/project/2021-crazyflie-auto-nav/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/project/2021-crazyflie-auto-nav/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Final project&lt;/strong&gt; in &lt;a href=&#34;https://edu.epfl.ch/coursebook/fr/aerial-robotics-MICRO-502&#34; target=&#34;_blank&#34;&gt;MICRO-502 Aerial robotics&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Members: Yujie He, &lt;a href=&#34;https://github.com/Jianhao-zheng/&#34; target=&#34;_blank&#34;&gt;Jianhao Zheng&lt;/a&gt;, and &lt;a href=&#34;https://github.com/kevinxqiu&#34; target=&#34;_blank&#34;&gt;Longlai Qiu&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Lecturer:  &lt;a href=&#34;https://people.epfl.ch/dario.floreano/?lang=en&#34; target=&#34;_blank&#34;&gt;Prof. Dario Floreano&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
+HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
+
+&lt;h2 id=&#34;goal-autonomous-navigation-and-landing-for-crazyflie&#34;&gt;Goal: Autonomous Navigation and Landing for Crazyflie&lt;/h2&gt;
+
+&lt;p&gt;In this practical, we programed based on &lt;a href=&#34;https://www.bitcraze.io/products/crazyflie-2-1/&#34; target=&#34;_blank&#34;&gt;Crazyflie 2.1&lt;/a&gt; to find and precisely land on a platform with height of 10 cm by utilizing z reading from &lt;a href=&#34;https://www.bitcraze.io/products/flow-deck-v2/&#34; target=&#34;_blank&#34;&gt;flow deck&lt;/a&gt;. Additionally, We also utilized sensor readings from &lt;a href=&#34;https://www.bitcraze.io/products/multi-ranger-deck/&#34; target=&#34;_blank&#34;&gt;multi-ranger deck&lt;/a&gt; to avoid the obstacles presented in the environment.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/hibetterheyj/Crazyflie_Auto_Navigation_Landing/blob/master/pics/cover.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/hibetterheyj/Crazyflie_Auto_Navigation_Landing/raw/master/pics/cover.jpg&#34; alt=&#34;cover&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;pipeline&#34;&gt;Pipeline&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Autonomous navigation &amp;amp; landing&lt;/th&gt;
+&lt;th&gt;Workflow&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;✓ Local obstacle avoidance &lt;br&gt;✓ Grid-based coverage path planning &lt;br&gt;✓ Waypoint following &lt;br&gt;✓ A* search-based re-planning&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/hibetterheyj/Crazyflie_Auto_Navigation_Landing/master/pics/pipeline_final.png&#34; alt=&#34;pipeline_final&#34;  width=&#34;500&#34;/&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
+
+&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Modular library for different tasks&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;├── cf_load_params.py  # parameter setting
+├── cf_search.py       # searching functions such as, coverage planning, box edge detection, A* search
+├── cf_state_class.py  # state estimation class for the proposed task
+└── cf_utilis.py       # utility functions, such as live plotting
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Utilized &lt;code&gt;argparse&lt;/code&gt; for quick parameter adjustment and tuning&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Utilized &lt;code&gt;matplotlib&lt;/code&gt; for real-time visualization&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;structure&#34;&gt;Structure&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Code folder: &lt;a href=&#34;https://github.com/hibetterheyj/Crazyflie_Auto_Navigation_Landing/tree/master/code/crazyflie-lib-python/group_7&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;./code/crazyflie-lib-python/group_7/&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;.
+├── cf_load_params.py
+├── cf_search.py
+├── cf_state_class.py
+├── cf_utilis.py
+├── overall.py
+├── draw_traj_demo.py
+├── logs
+│   ├── overall-20210530_1930_x.csv
+│   ├── overall-20210530_1930_x_half.csv
+│   ├── overall-20210530_1930_y.csv
+│   └── overall-20210530_1930_y_half.cs
+└── readme.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;demo&#34;&gt;Demo&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;overall.py&lt;/code&gt;: overall pipeline from taking off to landing.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# -x (float) for setting initial x position
+# -y (float) for setting initial y position
+# -v (bool) for enabling visualization
+python overall.py -x 0.6 -y 0.6 -v
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/hibetterheyj/Crazyflie_Auto_Navigation_Landing/blob/master/pics/cf_land.gif&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/hibetterheyj/Crazyflie_Auto_Navigation_Landing/raw/master/pics/cf_land.gif&#34; alt=&#34;cf_land&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;draw_traj.py&lt;/code&gt;: x-y trajectory visualization with region annotation&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# --log_folder (str) for assigning input log folder
+# --logname (str) for loding log file
+# --img_folder (str) for assigning output image folder
+# -n/--name (str) for assigning output image name
+# --zone_anno (bool) for enabling region annotation
+python draw_traj_demo.py --logname overall-20210530_1930 -n cf_demo --zone_anno
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/hibetterheyj/Crazyflie_Auto_Navigation_Landing/blob/master/pics/cf_demo.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/hibetterheyj/Crazyflie_Auto_Navigation_Landing/raw/master/pics/cf_demo.png&#34; alt=&#34;cf_demo&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The estimated values drift considerably after long flights. Moreover, the predicted starting position is significantly different from the starting point after the drone re-takes off.&lt;/p&gt;
+
+&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Features&lt;/th&gt;
+&lt;th&gt;Figures&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;✓ Size: 480 cm (W) × 120 cm (H) &lt;/br&gt;✓ Starting &amp;amp; Landing pad&lt;/br&gt; - starting (x, y) = (60 cm, 60 cm)&lt;/br&gt; - landing pad randomly placed &lt;/br&gt;✓ Circular and rectangular obstacles&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/hibetterheyj/Crazyflie_Auto_Navigation_Landing/master/pics/experimental_setup.png&#34; alt=&#34;experimental_setup&#34;  width=&#34;500&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;320&#34; src=&#34;https://www.youtube.com/embed/RP4-SlhOIUk&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;slide&#34;&gt;Slide&lt;/h2&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;iframe src=&#34;https://drive.google.com/file/d/1vY_UMflVXOcUSOASHkGHsSTXCBmwrVhK/preview&#34; width=&#34;560&#34; height=&#34;320&#34;&gt;&lt;/iframe&gt;
+&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021-04-22: Zotero for Reference Management</title>
+      <link>https://yujie-he.github.io/post/21-04-22-zotero/</link>
+      <pubDate>Thu, 22 Apr 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://yujie-he.github.io/post/21-04-22-zotero/</guid>
+      <description>
+
+&lt;h3 id=&#34;short-course-at-epfl&#34;&gt;Short course at EPFL&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;EPFL: Up to speed with Zotero
+
+&lt;ul&gt;
+&lt;li&gt;Gitbook: &lt;a href=&#34;https://fbib.gitbooks.io/up-to-speed-with-zotero/content/&#34; target=&#34;_blank&#34;&gt;https://fbib.gitbooks.io/up-to-speed-with-zotero/content/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Slide: &lt;a href=&#34;https://go.epfl.ch/ztart&#34; target=&#34;_blank&#34;&gt;https://go.epfl.ch/ztart&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;guides-in-chinese&#34;&gt;Guides in Chinese&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/31453719&#34; target=&#34;_blank&#34;&gt;Zotero 跨平台同步附件的实现-Zhihu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/31852030&#34; target=&#34;_blank&#34;&gt;Zotero 开箱指南-Zhihu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/63479253&#34; target=&#34;_blank&#34;&gt;Zotero入门小技巧-Zhihu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/read/cv6770896/&#34; target=&#34;_blank&#34;&gt;Zotero「工具包」已备好，请使用！-Bilibili&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/309465545&#34; target=&#34;_blank&#34;&gt;如何使用zotero文献管理软件在latex中排版参考文献啊？-Zhihu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;plug-ins&#34;&gt;Plug-ins&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Better BibTeX: &lt;a href=&#34;https://retorque.re/zotero-better-bibtex/&#34; target=&#34;_blank&#34;&gt;doc&lt;/a&gt;, &lt;a href=&#34;https://github.com/retorquere/zotero-better-bibtex/releases/&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;my citekey style: &lt;code&gt;[auth:lower][year][journal:abbr]&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Citation Counts Manager: &lt;a href=&#34;https://github.com/eschnett/zotero-citationcounts/releases&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ZoteroQuickLook: &lt;a href=&#34;https://github.com/mronkko/ZoteroQuickLook/releases&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Zutilo: &lt;a href=&#34;https://github.com/wshanks/Zutilo/releases&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;useful-links&#34;&gt;Useful links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Plugins&lt;/strong&gt; for Zotero to add features:
+&lt;a href=&#34;https://www.zotero.org/support/plugins&#34; target=&#34;_blank&#34;&gt;https://www.zotero.org/support/plugins&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Zotero &lt;strong&gt;Forum&lt;/strong&gt; to get help from the large Zotero community:
+&lt;a href=&#34;https://forums.zotero.org/discussions&#34; target=&#34;_blank&#34;&gt;https://forums.zotero.org/discussions&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sim2Real Development for Thymio with ROS</title>
+      <link>https://yujie-he.github.io/project/2021-ros-basics/</link>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/project/2021-ros-basics/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://edu.epfl.ch/coursebook/fr/robotics-practicals-MICRO-453&#34; target=&#34;_blank&#34;&gt;MICRO-453 Robotics practicals&lt;/a&gt;, EPFL, 2021 Spring&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Students: &lt;a href=&#34;https://github.com/Chuanfang-Neptune&#34; target=&#34;_blank&#34;&gt;Chuanfang Ning&lt;/a&gt;, &lt;a href=&#34;https://github.com/Jianhao-zheng&#34; target=&#34;_blank&#34;&gt;Jianhao Zheng&lt;/a&gt;, and Yujie He&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
+HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
+
+&lt;h2 id=&#34;keywords&#34;&gt;🔑 Keywords&lt;/h2&gt;
+
+&lt;p&gt;Thymio, PID, Way following, Obstacle avoidance, Pledge algorithm, ArUco marker, Sim2Real, Gazebo&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./sim2real.png&#34; alt=&#34;sim2real&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;small&gt;
+&lt;strong&gt;The tested environment in Gazebo and real-world setup&lt;/strong&gt;
+&lt;/small&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;example-videos&#34;&gt;📷 Example videos&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;For more examples, please refer to &lt;a href=&#34;https://go.epfl.ch/ros_basics_final_2021&#34; target=&#34;_blank&#34;&gt;https://go.epfl.ch/ros_basics_final_2021&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Simulation in Gazebo&lt;/th&gt;
+&lt;th&gt;Real-world test on campus&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;iframe width=&#34;340&#34; height=&#34;200&#34; src=&#34;https://www.youtube.com/embed/_3xvN2QztKM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+&lt;td&gt;&lt;iframe width=&#34;340&#34; height=&#34;200&#34; src=&#34;https://www.youtube.com/embed/Ydh_I8mSHz4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;how-to-launch-the-example-code&#34;&gt;🔨 How to launch the example code?&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;For more details, please refer to &lt;a href=&#34;https://github.com/hibetterheyj/EPFL_ROS_Practicals_Project/&#34; target=&#34;_blank&#34;&gt;hibetterheyj/&lt;strong&gt;EPFL_ROS_Practicals_Project&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;simulate Thymio robot in Gazebo with an interactive window&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;  roslaunch ros_basics_control simu_thymio.launch
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;adding waypoints and obstacle for the robot&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;  roslaunch ros_basics_control simu_thymio.launch
+  roslaunch ros_basics_exercise set_simu_waypoints_obstacle.launch
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;extract pose and sensor information from rosbag files&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;  roslaunch ros_basics_exercise view_with_rosbag.launch
+  # open a new terminal
+  rosrun ros_basics_exercise topic_reader.py
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;plot trajectory comparison between real and simulation (using matlab)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;  cd results_from_bag/
+  # run `plot_traj_comp.m` in MATLAB
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/hibetterheyj/EPFL_ROS_Practicals_Project/master/results_from_bag/traj_thymio_simulation_navigation_with_obstacle_avoidance.png&#34; alt=&#34;traj_thymio_simulation_navigation_with_obstacle_avoidance&#34; style=&#34;zoom:30%;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;acknowledgement&#34;&gt;⭐️ Acknowledgement&lt;/h2&gt;
+
+&lt;p&gt;Thanks to Vaios Papaspyros and Rafael Barmak from MOBOTS at EPFL for the amazing course tutorials !&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MULLS: Versatile LiDAR SLAM via Multi-metric Linear Least Square</title>
+      <link>https://yujie-he.github.io/publication/2021_mulls_icra/</link>
+      <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/publication/2021_mulls_icra/</guid>
+      <description>
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;featured.png&#34; alt=&#34;MULLS&#34; /&gt;
+&lt;small&gt;Pipeline of the multi-metric linear least square ICP&lt;/small&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;demo&#34;&gt;Demo&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Video&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/85bGD55e3-0&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;details open&gt;
+  &lt;summary&gt;&lt;b&gt;KITTI results&lt;/b&gt;&lt;/summary&gt;
+&lt;div&gt;
+  &lt;img src=&#34;https://github.com/YuePanEdward/MULLS/raw/main/assets/kitti_00_show.jpg&#34; alt=&#34;kitti_00_show&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://github.com/YuePanEdward/MULLS/raw/main/assets/kitti_01_show.jpg&#34; alt=&#34;kitti_01_show&#34; /&gt;
+&lt;/div&gt;
+&lt;/details&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+
+&lt;p&gt;If you find this project is useful, you may cite it as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;@inproceedings{Pan2021ICRA,
+  title={{MULLS: Versatile LiDAR SLAM via Multi-metric Linear Least Square}},
+  author={Pan, Yue and Xiao, Pengchuan and He, Yujie and Shao, Zhenlei and Li, Zesong},
+  booktitle={Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2021},
+  pages={1-8}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Disruptor-Aware Interval-Based Response Inconsistency for Correlation Filters in Real-Time Aerial Tracking</title>
+      <link>https://yujie-he.github.io/publication/2020-ibri-tgrs/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/publication/2020-ibri-tgrs/</guid>
+      <description>&lt;!--
+
+&lt;center&gt;
+
+![BiCF_comp](featured.png)
+&lt;small&gt;Comparison between discriminative correlation filter (DCF) and the proposed BiCF&lt;/small&gt;
+
+&lt;/center&gt;
+
+### Reference
+
+If you find this project is useful, you may cite it as:
+
+```tex
+@article{Lin2020TCSVT,
+	title={{Learning Temporary Block-Based Bidirectional Incongruity-Aware Correlation Filters for Efficient UAV Object Tracking}},
+	author={Lin, Fuling and Fu, Changhong and He, Yujie and Guo, Fuyu and Tang, Qian},
+	booktitle={IEEE Transactions on Circuits and Systems for Video Technology},
+	pages={1-14},
+	year={2020}
+}
+
+```
+
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Temporary Block-Based Bidirectional Incongruity-Aware Correlation Filters for Efficient UAV Object Tracking</title>
+      <link>https://yujie-he.github.io/publication/2020-tbbicf-tcsvt/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/publication/2020-tbbicf-tcsvt/</guid>
+      <description>
+
+&lt;!--
+
+&lt;center&gt;
+
+![BiCF_comp](featured.png)
+&lt;small&gt;Comparison between discriminative correlation filter (DCF) and the proposed BiCF&lt;/small&gt;
+
+&lt;/center&gt;
+
+--&gt;
+
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+
+&lt;p&gt;If you find this project is useful, you may cite it as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;@article{Lin2020TCSVT,
+	title={{Learning Temporary Block-Based Bidirectional Incongruity-Aware Correlation Filters for Efficient UAV Object Tracking}},
+	author={Lin, Fuling and Fu, Changhong and He, Yujie and Guo, Fuyu and Tang, Qian},
+	booktitle={IEEE Transactions on Circuits and Systems for Video Technology},
+	pages={1-14},
+	year={2020}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Towards Robust Visual Tracking for Unmanned Aerial Vehicle with Tri-Attentional Correlation Filters</title>
+      <link>https://yujie-he.github.io/publication/2020_tacf_iros/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/publication/2020_tacf_iros/</guid>
+      <description>
+
+&lt;!--
+![TACF](featured.jpg)
+&lt;small&gt;Comparison between baseline KCC tracker and the proposed TACF tracker&lt;/small&gt;
+--&gt;
+
+&lt;h3 id=&#34;videos&#34;&gt;Videos&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Presentation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/XlFgz8h4dts&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tracking results demo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/4IWKLmRoS38&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+
+&lt;p&gt;If you find this project is useful, you may cite it as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;@inproceedings{He2020IROS,
+	title={{Towards Robust Visual Tracking for Unmanned Aerial Vehicle with Tri-Attentional Correlation Filters}},
+	author={He, Yujie and Fu, Changhong and Lin, Fuling and Li, Yiming and Lu, Peng},
+	booktitle={Proceedings of the IEEE International Conference on Intelligent Robots and Systems (IROS)},
+	year={2020},
+	pages={1575-1582}
+ }
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Online Visual Object Tracking for UAV in Dynamic Environments</title>
+      <link>https://yujie-he.github.io/project/2020-tracking4uav/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/project/2020-tracking4uav/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Undergraduate Research Assistant&lt;/strong&gt; since &lt;em&gt;Sep. 2018&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
+HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Investigated correlation filter (CF)-based &lt;strong&gt;visual object tracking&lt;/strong&gt; for unmanned aerial vehicles. By applying &lt;strong&gt;machine learning &amp;amp; deep learning&lt;/strong&gt; techniques, we have improved the existing trackers on overall tracking performance in challenging scenarios with real-time operational capability.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;papers-with-code&#34;&gt;Papers with code&lt;/h2&gt;
+
+&lt;p&gt;Related work has been published in journals and conferences as follows:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Proposed a lightweight and generalizable &lt;strong&gt;triple attention strategy&lt;/strong&gt; on CF-based framework by exploiting mutual independence of the appearance model and feature responses to implement real-time tracking for UAV.&lt;/p&gt;
+
+&lt;p&gt;🚩 &lt;a href=&#34;../../publication/2020_tacf_iros/&#34;&gt;&lt;em&gt;Towards Robust Visual Tracking for Unmanned Aerial Vehicle with Tri-Attentional Correlation Filters&lt;/em&gt;&lt;/a&gt; in &lt;strong&gt;IROS 2020&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Employed the adaptive &lt;strong&gt;GMSD-based context analysis&lt;/strong&gt; and &lt;strong&gt;dynamic weighted filters&lt;/strong&gt; for utilizing both contextual and historical information, and leveraged &lt;strong&gt;lightweight convolution features&lt;/strong&gt; to efficiently raise the tracking robustness.&lt;/p&gt;
+
+&lt;p&gt;🚩 &lt;a href=&#34;../../publication/2020_mkct_ncaa/&#34;&gt;&lt;em&gt;Robust Multi-Kernelized Correlators for UAV Tracking with Adaptive Context Analysis and Dynamic Weighted Filters&lt;/em&gt;&lt;/a&gt; in &lt;strong&gt;Neural Computing and Applications&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Exploited the inter-frame information between prediction and backtracking phases for further incorporating the &lt;strong&gt;bidirectional incongruity error&lt;/strong&gt; into the CF learning.&lt;/p&gt;
+
+&lt;p&gt;🚩 &lt;a href=&#34;../../publication/2020_bicf_icra/&#34;&gt;&lt;em&gt;BiCF: Learning Bidirectional Incongruity-Aware Correlation Filter for Efficient UAV Object Tracking&lt;/em&gt;&lt;/a&gt; in &lt;strong&gt;ICRA 2020&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    For more info, please refer to my &lt;a href=&#34;https://www.youtube.com/channel/UCGpK01NL0j3RkXpsODXm-Dg&#34; target=&#34;_blank&#34;&gt;YouTube channel&lt;/a&gt; and &lt;a href=&#34;https://github.com/hibetterheyj&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BiCF: Learning Bidirectional Incongruity-Aware Correlation Filter for Efficient UAV Object Tracking</title>
+      <link>https://yujie-he.github.io/publication/2020_bicf_icra/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/publication/2020_bicf_icra/</guid>
+      <description>
+
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;BiCF_comp&#34; /&gt;
+&lt;small&gt;Comparison between discriminative correlation filter (DCF) and the proposed BiCF&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+
+&lt;p&gt;If you find this project is useful, you may cite it as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;@inproceedings{Lin2020ICRA,
+	title={{BiCF: Learning Bidirectional Incongruity-Aware Correlation Filter for Efficient UAV Object Tracking}},
+	author={Lin, Fuling and Fu, Changhong and He, Yujie and Guo, Fuyu and Tang, Qian},
+	booktitle={Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)},
+	pages={2365-2371},
+	year={2020}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3D Zonal Segmentation of the Prostate MRI (Deep Learning Final Project)</title>
+      <link>https://yujie-he.github.io/project/2019-dl-mip/</link>
+      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/project/2019-dl-mip/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Final project for TJ-100685 深度学习 | Deep learning&lt;/strong&gt;, &lt;em&gt;Sep. 2019 - Jan. 2020&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Utilized the latest &lt;strong&gt;Weight Standardization&lt;/strong&gt;}** (WS) as well as &lt;strong&gt;GroupNorm&lt;/strong&gt; to accelerate neural networks training from scratch for 3D Zonal Segmentation of the &lt;strong&gt;Prostate MRI images&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Conducted extensive evaluation between the proposed UWG-Net with the baseline with &lt;strong&gt;small batch sizes&lt;/strong&gt;, achieving 2-3\% increase in &lt;strong&gt;multi-class segmentation accuracy&lt;/strong&gt; for medical imaging application.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For more info, you can refer to this &lt;a href=&#34;https://yujie-he.github.io/study/2019-deep-learning/final_project/&#34; target=&#34;_blank&#34;&gt;page&lt;/a&gt; !&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robust Multi-Kernelized Correlators for UAV Tracking with Adaptive Context Analysis and Dynamic Weighted Filters</title>
+      <link>https://yujie-he.github.io/publication/2020_mkct_ncaa/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/publication/2020_mkct_ncaa/</guid>
+      <description>
+
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;MKCT_workflow&#34; /&gt;
+&lt;small&gt;Main structure of the proposed tracking approach&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+
+&lt;p&gt;If you find this project is useful, you may cite it as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;@article{Fu2020NCAA,
+	title={{Robust Multi-Kernelized Correlators for UAV Tracking with Adaptive Context Analysis and Dynamic Weighted Filters}},
+	author={Fu, Changhong and He, Yujie and Lin, Fuling and Xiong, Weijiang},
+	journal={Neural Computing and Applications},
+	pages={1-17},
+	year={2020}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2019-11-04: Our paper SPCF won the Best Poster Award in the IROS Workshop, Macua, China.</title>
+      <link>https://yujie-he.github.io/post/19-11-iros/</link>
+      <pubDate>Mon, 04 Nov 2019 12:00:00 +0800</pubDate>
+      
+      <guid>https://yujie-he.github.io/post/19-11-iros/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s my first time to participate the top robotics conference&amp;ndash;IEEE/RSJ International Conference on Intelligent Robots and Systems (&lt;a href=&#34;https://www.iros2019.org/&#34; target=&#34;_blank&#34;&gt;IROS 2019&lt;/a&gt;) held on Nov. 4 – 8, 2019 in Macau, China.&lt;/p&gt;
+
+&lt;p&gt;Feel very lucky to talk to the experts, professors, and my fellows!&lt;/p&gt;
+
+&lt;p&gt;Our paper &amp;lsquo;Sample Purification-Aware Correlation Filters for UAV Tracking with Cooperative Deep Features&amp;rsquo; is accepted by the &lt;a href=&#34;http://www.robomai.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Workshop on Fast Neural Perception and Learning for Intelligent Vehicles and Robotics&lt;/strong&gt;&lt;/a&gt; and won the &lt;strong&gt;Best Poster Award&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;p&gt;For more details, please refer to &lt;a href=&#34;https://yujie-he.github.io/publication/2019_spcf_irosw/&#34; target=&#34;_blank&#34;&gt;SPCF&lt;/a&gt;!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./1911-IROS-portrait.jpg&#34; alt=&#34;IROS2019&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;My first time to attend top robotics conference, IROS @ Macau&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;!--
+
+![Keynote](https://media.licdn.cn/dms/image/C5122AQG55FDTtcTyPQ/feedshare-shrink_2048_1536/0?e=1579132800&amp;v=beta&amp;t=QtgkGH1xUXjemrQ3UEbf5WVUad9FIm0XWVy_g4rp4xk)
+
+&lt;small&gt; Keynote by *Davide Scaramuzza* covering Autonomous Drones Event Cameras &lt;/small&gt;
+
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sample Purification-Aware Correlation Filters for UAV Tracking with Cooperative Deep Features</title>
+      <link>https://yujie-he.github.io/publication/2019_spcf_irosw/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/publication/2019_spcf_irosw/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;SPCF_comp&#34; /&gt;
+&lt;small&gt;Comparison between traditional CF-based and proposed SPCF tracker&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teaching Assistant in Open Source Hardware and Programming</title>
+      <link>https://yujie-he.github.io/project/2019-tongji-ta/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/project/2019-tongji-ta/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Teaching Assistant&lt;/strong&gt;, &lt;em&gt;Sep. 2018 - Jan. 2019&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Assisted first-year students major in Industrial Design to get started Arduino Hardware and Programming&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Designed a series of the electromechanical modules for Industrial Design students&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Gave lectures on basic mechanical principle with Arduino hardware and programming and advanced RGBD sensors for the semester project&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following video is &lt;strong&gt;Mechatronics Module Experiments&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
+
+&lt;iframe width=&#34;645&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/gTo2n-7T-Ao&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DIAN Racing Formula Student Electric Team</title>
+      <link>https://yujie-he.github.io/project/2018-dian-racing/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/project/2018-dian-racing/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Powertrain Group Leader&lt;/strong&gt;, &lt;em&gt;Sep. 2016 - Dec. 2018&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Designed and optimized the overall powertrain system to ensure China&amp;rsquo;s first leading four-wheel-drive Formula Student Racecar, achieving an 8\% efficiency and 10\% lightweight improvement&lt;/li&gt;
+&lt;li&gt;Participated FSEC 2017 - 2018 and SFJ 2018 as Chief Powertrain Engineer, contributing to DIAN Racing‘s win in first place in Engineering Design and Efficiency Prize, and Best Powertrain Award from 2017 to 2018&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following video is &lt;strong&gt;virtual assembly of DRe18&lt;/strong&gt;，which was what I worked for as Powertrain Group Leader.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
+
+&lt;iframe width=&#34;645&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/bWmHDvBw1qw&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;./design-report-FSEC19.jpg&#34; alt=&#34;design-report-FSEC19&#34; /&gt;
+&lt;small&gt; &lt;strong&gt;Design Report Final @ FSEC19&lt;/strong&gt;&lt;/small&gt;
+&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SLAM and Autonomous Navigation for Skid Steer Wheel Robot</title>
+      <link>https://yujie-he.github.io/project/2018-hesai-internship/</link>
+      <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/project/2018-hesai-internship/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Robotics Algorithm Development Intern&lt;/strong&gt;, &lt;em&gt;Jul. 2018 - Aug. 2018&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
+HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Implemented sensor fusion between a 40-channel LiDAR, i.e., &lt;a href=&#34;https://www.hesaitech.com/pandora.html/Pandar40&#34; target=&#34;_blank&#34;&gt;Pandar40&lt;/a&gt; and gyroscope and achieved a 5% accuracy improvements on top of state-of-the-art SLAM framework and drew a 3D point cloud map of Tongji University Jiading Campus below 10m&lt;/li&gt;
+&lt;li&gt;Deployed control, decision, and communication algorithms for a self-developed skid steer wheel robot, realizing autonomous navigation and obstacle avoidance in a $ 300 m^2 $ workspace&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;demos&#34;&gt;Demos&lt;/h2&gt;
+
+&lt;p&gt;Examples of final mapping results can be seen as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./tongjiFront_optimize.gif&#34; alt=&#34;tongjiFront_optimize&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./KWG_optimize.gif&#34; alt=&#34;KWG_optimize&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;
+  &lt;strong&gt;Pointcloud Demo of Tongji Jiading Campus&lt;/br&gt;
+  👉 &lt;a href=&#34;https://goo.gl/maps/ygsUXZUryBs2RFw2A&#34; target=&#34;_blank&#34;&gt;Corresponding satellite map from Google map&lt;/a&gt;&lt;/strong&gt;&lt;/br&gt;
+  Up: &lt;strong&gt;Main Gate&lt;/strong&gt;, Down: &lt;strong&gt;Kaiwu Building&lt;/strong&gt;
+ &lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;misc&#34;&gt;Misc.&lt;/h2&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./indoor-slam.jpg&#34; alt=&#34;indoor-slam-result&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt; &lt;strong&gt;Indoor SLAM @ Hesai Tech&lt;/strong&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./SSWR.jpg&#34; alt=&#34;algorithm-debugging&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt; &lt;strong&gt;Skid Steer Wheel Robot equipped with Pandar40 LiDAR&lt;/strong&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Super Power Robot Team</title>
+      <link>https://yujie-he.github.io/project/2018-super-power/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/project/2018-super-power/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Project Manager &amp;amp; Mechanical Development Leader&lt;/strong&gt;, &lt;em&gt;Oct. 2016 - Jun. 2018&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Designed two main robots to participate in national mobile robot competition, RoboMaster, achieving lightweight and stability of the chassis and 3DOF pan-tilt mechanism and multi-robot interaction&lt;/li&gt;
+&lt;li&gt;Optimized structural design to enhance operation stability and achieve lightweight, enable the robots flexible operation and combating under complicated circumstances&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
