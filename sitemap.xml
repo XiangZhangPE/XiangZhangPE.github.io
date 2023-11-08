@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://yujie-he.github.io/study/2019-deep-learning/final_project/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/study/2019-deep-learning/</loc>
+    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/study/2019-matlab/</loc>
+    <lastmod>2019-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/study/2019-system-modeling-and-design/</loc>
+    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/deep-learning/</loc>
+    <lastmod>2021-11-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/featured/</loc>
+    <lastmod>2021-11-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/in-progress/</loc>
+    <lastmod>2021-11-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/lidar/</loc>
+    <lastmod>2021-11-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/machine-vision/</loc>
+    <lastmod>2021-11-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/project/2021-qolo-pedestrian-analysis/</loc>
+    <lastmod>2021-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/project/</loc>
+    <lastmod>2021-11-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/ros/</loc>
+    <lastmod>2021-11-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/robotics/</loc>
+    <lastmod>2021-11-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/</loc>
+    <lastmod>2021-11-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/</loc>
+    <lastmod>2021-11-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/publication_types/2/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/adaptive-response-reasoning/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/authors/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/authors/changhong-fu/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/discriminative-correlation-filter/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/authors/fan-li/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/authors/fuling-lin/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/publication_types/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/publication/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/publication/2021_recf_tits/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/real-time-uav-tracking/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/authors/weijiang-xiong/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/authors/yujie-he/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/project/2021-lis-drone-delivery/</loc>
+    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/finished/</loc>
+    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/mechatronics/</loc>
+    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/px4/</loc>
+    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/pixhawk/</loc>
+    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/unmanned-aerial-vehicle/</loc>
+    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/visual-fiducial-marker/</loc>
+    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/project/2021-crazyflie-auto-nav/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/post/21-04-22-zotero/</loc>
+    <lastmod>2021-04-22T12:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/post/</loc>
+    <lastmod>2021-04-22T12:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/reference-management/</loc>
+    <lastmod>2021-04-22T12:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/zotero/</loc>
+    <lastmod>2021-04-22T12:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/sim2real/</loc>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/project/2021-ros-basics/</loc>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/thymio/</loc>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/publication_types/1/</loc>
+    <lastmod>2021-02-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/autonomous-driving/</loc>
+    <lastmod>2021-02-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/linear-least-square/</loc>
+    <lastmod>2021-02-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/publication/2021_mulls_icra/</loc>
+    <lastmod>2021-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/authors/pengchuan-xiao/</loc>
+    <lastmod>2021-02-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/simultaneous-localization-and-mapping/</loc>
+    <lastmod>2021-02-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/authors/yue-pan/</loc>
+    <lastmod>2021-02-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/authors/zesong-li/</loc>
+    <lastmod>2021-02-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/authors/zhenlei-shao/</loc>
+    <lastmod>2021-02-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/aerial-object-tracking/</loc>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/publication/2020-ibri-tgrs/</loc>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/disruptor-aware-bucketing/</loc>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/interval-based-response-inconsistency/</loc>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/authors/junjie-ye/</loc>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/authors/juntao-xu/</loc>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/aerial-video-analysis/</loc>
+    <lastmod>2020-09-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/authors/fuyu-guo/</loc>
+    <lastmod>2020-09-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/publication/2020-tbbicf-tcsvt/</loc>
+    <lastmod>2020-09-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/authors/qian-tang/</loc>
+    <lastmod>2020-09-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/temporary-block-based-bidirectional-incongruity/</loc>
+    <lastmod>2020-09-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/unmanned-aerial-vehicles/</loc>
+    <lastmod>2020-09-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/visual-object-tracking/</loc>
+    <lastmod>2020-09-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/attention-mechanisms/</loc>
+    <lastmod>2020-09-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/authors/peng-lu/</loc>
+    <lastmod>2020-09-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/publication/2020_tacf_iros/</loc>
+    <lastmod>2020-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/visual-tracking/</loc>
+    <lastmod>2020-09-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/authors/yiming-li/</loc>
+    <lastmod>2020-09-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/project/2020-tracking4uav/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/publication/2020_bicf_icra/</loc>
+    <lastmod>2020-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/project/2019-dl-mip/</loc>
+    <lastmod>2020-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/adaptive-context-analysis/</loc>
+    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/dynamic-weighted-filters/</loc>
+    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/multi-kernelized-correlators/</loc>
+    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/publication/2020_mkct_ncaa/</loc>
+    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/post/19-11-iros/</loc>
+    <lastmod>2019-11-04T12:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/iros/</loc>
+    <lastmod>2019-11-04T12:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/conference/</loc>
+    <lastmod>2019-11-04T12:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/publication_types/3/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/correlation-filter/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/publication/2019_spcf_irosw/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/sample-purification/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/project/2019-tongji-ta/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/project/2018-dian-racing/</loc>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/tags/racecar/</loc>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/project/2018-hesai-internship/</loc>
+    <lastmod>2018-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/study/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yujie-he.github.io/project/2018-super-power/</loc>
+  </url>
+  
+</urlset>
