@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="path/to/research_highlight.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accomplishments</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <style>
+    /* 全屏图片样式 */
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #000; /* 背景色，图片未加载时的占位 */
+    }
+
+    .full-page-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* 保持图片比例，同时填充整个页面 */
+    }
+
+    /* 返回按钮 */
+    .back-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color: #861f41;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #5d0619;
+    }
+  </style>
+
+</head>
+<body>
+  <!-- 返回主页面的按钮 -->
+  <a href="index.html" class="back-button">Back to Home</a>
+
+  <!-- 全屏图片 -->
+  <img src="\files\Projects\apm01\cover-apm01_roadmap.jpg" alt="Accomplishment Image" class="full-page-image">
+</body>
+</html>
